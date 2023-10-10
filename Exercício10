@@ -1,0 +1,65 @@
+#exercicio0010.py
+"""
+Exercícios
+
+1) Faça cada quadrado ter uma cor
+feito
+2) Faça cada quadrado com um formato diferente da tartaruga
+meio certo
+3) Faça os quadrados não se tocarem
+feito
+4) Desenhe um quadrado maior ao redor dos demais quadrados
+feito
+"""
+
+import turtle
+
+turtle = turtle.Turtle()
+
+for _ in range(4):
+    
+    turtle.color("purple")
+    turtle.forward(100)
+    turtle.right(90)
+turtle.penup()
+turtle.left(90)
+turtle.forward(30)
+turtle.pendown()
+for _ in range(4):
+   turtle.shape("turtle")
+   turtle.color("pink") 
+   turtle.forward(100)
+   turtle.right(90)
+  
+turtle.penup()
+turtle.left(90)
+turtle.forward(30)
+turtle.pendown()
+for _ in range(4):
+   turtle.shape("arrow")
+   turtle.color("yellow")
+   turtle.forward(100)
+   turtle.right(90)
+turtle.penup()
+turtle.left(90)
+turtle.forward(30)
+turtle.pendown()
+for _ in range(4):
+   turtle.shape("turtle")
+   turtle.color("blue")
+   turtle.forward(100)
+   turtle.right(90)
+
+turtle.penup()
+turtle.forward(160)
+turtle.right(90)
+turtle.forward(-190)
+
+turtle.pendown()
+for _ in range(4):
+   turtle.pensize(5)   
+   turtle.shape("turtle")
+   turtle.color("orange")
+   turtle.forward(350)
+   turtle.right(90)
+
